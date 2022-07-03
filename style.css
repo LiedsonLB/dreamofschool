@@ -4,7 +4,7 @@
 
 #checkout-page {
 height: 100vh;
-background: url(./img/backschool3.jpg);
+background: url(./backschool3.jpg);
 background-size: cover;
 filter: brightness(1.2);
 }
