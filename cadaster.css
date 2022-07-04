@@ -99,8 +99,8 @@ width: 100%;
 filter: drop-shadow(10px 10px 6px black);
 }
 .container-img-right, .container-img2-right {
-animation: coloralt 10s linear infinite;
-animation-delay: 1s
+animation: coloralt 20s linear infinite;
+animation-delay: 0.5s
 }
 @keyframes coloralt{
     0% {
