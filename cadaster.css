@@ -88,6 +88,7 @@ grid-template-columns: 200px 200px;
 grid-gap: 10px;
 align-items: center;
 justify-content: center;
+filter: hue-rotate(45deg);
 }
 .container-img-right {
 height: 100%;
@@ -95,11 +96,22 @@ width: 100%;
 }
 img {
 width: 100%;
-filter: grayscale();
+filter: drop-shadow(10px 10px 6px black);
 }
-img:hover {
-width: 100%;
-filter: brightness(1);
+.container-img-right, .container-img2-right {
+animation: coloralt 10s linear infinite;
+animation-delay: 1s
+}
+@keyframes coloralt{
+    0% {
+      }
+    99%{
+    filter: invert(1);
+    z-index: 1;
+    transform: scale(1.01);
+    }
+    100%{
+    }
 }
 #form-login input {
 background: transparent;
