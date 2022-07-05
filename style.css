@@ -99,10 +99,12 @@ margin: 0 auto;
 .form-floating input{
 color: #fff;
 background-color: transparent;
+font-weight: bolder;
 }
 .form-floating input:focus{
 color: #fff;
 background-color: transparent;
+font-weight: bolder;
 }
 #form-login label{
 color: #fff;
