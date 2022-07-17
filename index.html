@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./img/icon.dream.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream School Online | Game </title>
+    <script src="./scripts.js" defer></script>
+
+<!-- BOOTSTRAP -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- BOOTSTRAP ICONS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+</style>
+<body id="checkout-page">
+    <div id="fade" class="hide">
+        <h3 id="loader-text">Carregando</h3>
+        <div id="loader" class="spinner-border text-info" role="status">
+            <span class="visually-hiden"></span>
+        </div>
+    </div>
+    <div id="container-main" class="container px-md-0">
+    
+        <h1 style="color: white;">Jogue agora online</h1>
+
+        <div id="container-img">
+        <img src="./img/logoDreamGame - Copia.png" alt="logo do game">
+        </div>
+
+        <div></div>
+        <h2 style="color: #fff;">Faça seu login</h2>
+
+
+        <form id="form-login" style="margin-top: 20px;">
+            <div class="row mb-3">
+                <div class="form-floating col-12 col-sm-8">
+                    <input type="email" class="form-control shadow none" id="email" name="email" placeholder="Digíte seu email" required>
+                    <label for="email">Digíte seu email</label>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="form-floating  col-12 col-sm-8">
+                    <input type="password" id="password" class="form-control shadow none" placeholder="Digíte sua senha">
+                    <label for="password">Digíte sua senha</label>
+                </div>
+            </div>
+            <div id="container-button" class="d-flex justify-content-center mb-5">
+                <button id="login-btn" type="submit" class="btn btn-primary">Logar</button>
+            </div>
+        </form>
+        <div id="cadaster">
+            <p>ainda não tem conta ?<a href="./cadaster.html">Criar conta</a></p>
+        </div>
+
+        <div id="login-plus">
+            <p>Faça login também com :</p>
+        </div>
+
+        <div id="logins-2">
+            <div class="logins">
+                <a href="https://www.youtube.com/watch?v=4CUa9R_N4eQ">
+                <i class="bi bi-facebook active"></i></a>
+            </div>
+            <div class="logins">
+                <a href="https://www.youtube.com/watch?v=4CUa9R_N4eQ">
+                <i class="bi bi-google active"></i></a>
+            </div>
+            <div class="logins">
+                <a href="https://www.youtube.com/watch?v=4CUa9R_N4eQ">
+                <i class="bi bi-xbox active"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
